@@ -1,0 +1,1 @@
+to run locally: $ mvn flyway:migrate -Dflyway.user=user -Dflyway.password=userpass -Dflyway.locations=filesystem:./db/migration -Dflyway.url=jdbc:postgresql://localhost:5432/copycat-dev
